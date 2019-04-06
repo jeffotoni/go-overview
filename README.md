@@ -13,9 +13,7 @@ Para se ter uma pequena ideia, em uma máquina de **1CPU e 1G Ram**, conseguimos
 
 Para projetos simples ou complexos Go sempre será uma excelente alternativa, pois torna tudo mais simples e enxuto, fácil de codar e dar manutenção.
 
-**Go** é uma linguagem compilada, um **like de C8**, muito focada na produtividade.
-
-### Alguns exemplos Usando Go 
+**Go** é uma linguagem compilada, um **like de C**, muito focada na produtividade.
 
 Exemplos na Internet mostrando soluções utilizando **concorrência** e a eficiência da da liguagem para resolver problemas e utilizando pouco recurso computacional.
 
