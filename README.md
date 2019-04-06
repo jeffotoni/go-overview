@@ -11,16 +11,16 @@ As **goroutines** são responsáveis por realizar execuções em **Go** de forma
 
 Para se ter uma pequena ideia, em uma máquina de **1CPU e 1G Ram**, conseguimos com uma API simples, com poucas linhas de código, aguentar de **5k a 6k** requisições por segundo em um protocolo **TCP**, utilizando **RPC** ou **TCP nativo** e gravando em um banco de dados relacional como o **Postgresql**, sem derrubá-lo e consumindo em média somente 60Mb a 70Mb de memória e de **8% a 15% de CPU**.
 
-Exemplos na Internet mostrando soluções utilizando concorrência e a eficiência da da liguagem é o que não faltam:
-
-### [Alguns exemplos]
-
-Lendo um arquivo txt de 3G e fazendo parse em menos de 5 segundos.
-[Reading large files](https://marcellanz.com/post/file-read-challenge)
-
 Para projetos simples ou complexos Go sempre será uma excelente alternativa, pois torna tudo mais simples e enxuto, fácil de codar e dar manutenção.
 
 Go é uma linguagem compilada, um like de C, muito focada na produtividade.
+
+Exemplos na Internet mostrando soluções utilizando concorrência e a eficiência da da liguagem é o que não faltam:
+
+### Alguns exemplos
+
+[Reading large files](https://marcellanz.com/post/file-read-challenge)
+Lendo um arquivo txt de 3G e fazendo parse em menos de 5 segundos.
 
 Pequeno Exemplo em Go:
 ```go
