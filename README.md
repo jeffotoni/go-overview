@@ -13,17 +13,21 @@ Para se ter uma pequena ideia, em uma máquina de **1CPU e 1G Ram**, conseguimos
 
 Para projetos simples ou complexos Go sempre será uma excelente alternativa, pois torna tudo mais simples e enxuto, fácil de codar e dar manutenção.
 
-Go é uma linguagem compilada, um like de C, muito focada na produtividade.
+**Go** é uma linguagem compilada, um **like de C8**, muito focada na produtividade.
 
-Exemplos na Internet mostrando soluções utilizando concorrência e a eficiência da da liguagem é o que não faltam:
+### Alguns exemplos Usando Go 
 
-### Alguns exemplos
+Exemplos na Internet mostrando soluções utilizando **concorrência** e a eficiência da da liguagem para resolver problemas e utilizando pouco recurso computacional.
+
+1) Lendo um arquivo txt de **3G** e fazendo parse em menos de **5 segundos**.
 
 [Reading large files](https://marcellanz.com/post/file-read-challenge)
 
-Lendo um arquivo txt de 3G e fazendo parse em menos de 5 segundos.
+--------------------------------------------------------------------------------------
 
-Pequeno Exemplo em Go:
+### Alguns exemplos simples
+
+Hello World..
 ```go
 package main
 import "fmt"
@@ -41,8 +45,7 @@ Compilando seu programa
 $ go build -o main main.go
 ```
 
-Uma API em Go, fazendo um Get
-
+Uma API em Go, fazendo um Get no google
 ```go
 package main
 
@@ -73,8 +76,7 @@ Executando seu programa sem precisar compilar
 $ go run main.go
 ```
 
-Uma API com um endpoint 
-
+Uma API simples
 ```go
 package main
 
