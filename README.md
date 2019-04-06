@@ -15,7 +15,7 @@ Para projetos simples ou complexos Go sempre será uma excelente alternativa, po
 
 **Go** é uma linguagem compilada, um **like de C**, muito focada na produtividade.
 
-Exemplos na Internet mostrando soluções utilizando **concorrência** e a eficiência da da liguagem para resolver problemas e utilizando pouco recurso computacional.
+**Exemplos** na Internet mostrando soluções utilizando **concorrência** e a eficiência da da liguagem para resolver problemas e utilizando **pouco recurso computacional**.
 
 1) Lendo um arquivo txt de **3G** e fazendo parse em menos de **5 segundos**.
 
