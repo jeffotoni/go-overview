@@ -20,6 +20,7 @@ Exemplos na Internet mostrando soluções utilizando concorrência e a eficiênc
 ### Alguns exemplos
 
 [Reading large files](https://marcellanz.com/post/file-read-challenge)
+
 Lendo um arquivo txt de 3G e fazendo parse em menos de 5 segundos.
 
 Pequeno Exemplo em Go:
@@ -38,4 +39,79 @@ $ go run main.go
 Compilando seu programa
 ```bash
 $ go build -o main main.go
+```
+
+Uma API em Go, fazendo um Get
+
+```go
+package main
+
+import (
+    "fmt"
+    "io/ioutil"
+    "net/http"
+    "os"
+)
+
+func main() {
+    resp, err := http.Get("https://google.com")
+    check(err)
+    body, err := ioutil.ReadAll(resp.Body)
+    check(err)
+    fmt.Println(len(body))
+}
+
+func check(err error) {
+    if err != nil {
+        fmt.Println(err)
+        os.Exit(1)
+    }
+}
+```
+Executando seu programa sem precisar compilar
+```bash
+$ go run main.go
+```
+
+Uma API com um endpoint 
+
+```go
+package main
+
+import (
+    "fmt"
+    "log"
+    "net/http"
+)
+
+func Hello(w http.ResponseWriter, r *http.Request) {
+    w.WriteHeader(http.StatusOK)
+    w.Write([]byte("Hello, welcome to the world, Go!"))
+}
+
+func main() {
+
+    mux := http.NewServeMux()
+    mux.Handle("/api/hello", http.HandlerFunc(Hello))
+
+    server :=
+        &http.Server{
+            Addr:    ":8080",
+            Handler: mux,
+        }
+
+    fmt.Printf("Server Run port: 8080\n")
+    if err := server.ListenAndServe(); err != nil {
+        log.Printf("Eror while serving metrics: %s", err)
+    }
+}
+```
+Executando seu programa sem precisar compilar
+```bash
+$ go run main.go
+```
+
+Testando sua API com **cURL**
+```bash
+$ curl localhost:8080/api/hello
 ```
