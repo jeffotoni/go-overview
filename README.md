@@ -13,7 +13,7 @@ Para se ter uma pequena ideia, em uma máquina de **1CPU e 1G Ram**, conseguimos
 
 Exemplos na Internet mostrando soluções utilizando concorrência e a eficiência da da liguagem é o que não faltam:
 
-[lista de links]
+### [Alguns exemplos]
 
 Lendo um arquivo txt de 3G e fazendo parse em menos de 5 segundos.
 [Reading large files](https://marcellanz.com/post/file-read-challenge)
