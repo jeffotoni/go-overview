@@ -16,6 +16,7 @@ Para projetos simples ou complexos **Go** sempre será uma excelente alternativa
 
 **Go** é uma linguagem compilada um like de **C** muito focada na produtividade.
 
+Pequeno Exemplo em Go:
 ```go
 package main
 import "fmt"
