@@ -9,7 +9,7 @@ As **goroutines** são responsáveis por executarmos as coisas em **Go** de form
 
 **Go** é muito poderoso e o mais importante simples de codar,  a resolução de muitos problemas é bem mais eficiente utilizando **concorrência** este é o **poder de Go** por isto ele tornou um **Deus** quando o assunto é **concorrẽncia** e devido a isto todos os problemas englobados neste universo ele irá resolver com muita eficiência e o mais importante com muito **pouco recurso computacional**.
 
-Para ter uma pequena ideia em uma máquina de **1CPU e 1G Ram** conseguimos com uma API simples com poucas linhas aguentar **5k a 6k** por segundo de requests em um protocolo** TCP** utilizando **RPC** ou nativo **TCP** e gravando em um banco de dados Relacional o Postgresql, sem derrubar o postgres consumindo em média somente 60Mb a 70Mb de memória de 8% a 15% de CPU..
+Para ter uma pequena ideia em uma máquina de **1CPU e 1G Ram** conseguimos com uma API simples com poucas linhas aguentar **5k a 6k** por segundo de requests em um protocolo **TCP** utilizando **RPC** ou nativo **TCP** e gravando em um banco de dados Relacional o Postgresql, sem derrubar o postgres consumindo em média somente 60Mb a 70Mb de memória de 8% a 15% de CPU..
 Exemplos na net é que não faltam mostrando soluções utilizando **concorrência** e a eficiência monstro que ocorre quando utilizado **Go**.
 
 Para projetos simples ou complexos **Go** sempre será uma excelente alternativa, pois torna-se tudo mais simples e enxuto para codar, dar manutenção.
