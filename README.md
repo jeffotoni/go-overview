@@ -16,8 +16,19 @@ Para projetos simples ou complexos **Go** sempre será uma excelente alternativa
 
 **Go** é uma linguagem compilada um like de **C** muito focada na produtividade.
 
+```go
 package main
 import "fmt"
 func main() {
     fmt.Printf("Olá, eu amo Go!\n")
 }
+```
+Executando seu programa sem precisar compilar
+```bash
+$ go run main.go
+```
+
+Compilando seu programa
+```bash
+$ go build -o main main.go
+```
