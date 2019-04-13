@@ -2,7 +2,7 @@
 
 A linguagem **Go** foi lançada em 2009 com propósito de facilitar a resolução de problemas quando o assunto é desenvolvimento em **camadas de rede, escalabilidade, desempenho, produtividade e o mais importante concorrência.**
 
-**Go** teve influências de diversas liguagens de programação e paradigmas diferentes, e se sobressaiu ao juntar o que tinham de melhor e criou algo novo e enxuto, com o mínimo necessário para resolver os problemas propostos, acredito que isto podemos chamar de **inovação**. Go inovou ao quebrar os paradigmas de linguagens e implementar algo novo de forma simples e muito poderosa.
+**Go** teve influências de diversas linguagens de programação e paradigmas diferentes, e se sobressaiu ao juntar o que tinham de melhor e criou algo novo e enxuto, com o mínimo necessário para resolver os problemas propostos, acredito que isto podemos chamar de **inovação**. Go inovou ao quebrar os paradigmas de linguagens e implementar algo novo de forma simples e muito poderosa.
 
 Um dos pontos mais relevantes e importantes é o trablho com **concorrência**, ele inovou ao quebrar o modelo tradicional de threads e sua forma de utilização ao criar um novo modelo, as **goroutines**.
 As **goroutines** são responsáveis por realizar execuções em **Go** de forma **assíncrona**. São muito poderosas e uma simples máquina de 1G de Ram poderá subir milhares delas.
